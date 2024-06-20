@@ -4,7 +4,7 @@ let bg = document.querySelector('#bg');
 let err = document.querySelector('h1');
 
 btn.addEventListener("click", function(){
-  err.textContent = 'Downloading....';
+  err.innerText = 'Downloading....';
   gsap.to(bg,{
     x:0,
     delay:0.4,
